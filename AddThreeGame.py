@@ -43,7 +43,7 @@ class AddThreeGame :
 
         if len ( self._played ) == 9 :
             self._curstat = "DRAW"
-            return True
+        return True
 
 
 game = AddThreeGame ()
